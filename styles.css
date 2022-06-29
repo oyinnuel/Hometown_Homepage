@@ -1,0 +1,197 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+**/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.hero-title,
+.hero-subtitle {
+    text-shadow: 0px 0px 5px black;
+    color: #ffffff;
+}
+
+.hero-title {
+    background-color: #1D3557;
+    border-radius: 10px;
+    padding: 3px 12px 5px;
+    margin: 112px 0 16px;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.hero-subtitle {
+    font-size: 18.72px;
+    line-height: 22px;
+    margin-bottom: 127px;
+    max-width: 300px;
+}
+
+img {
+    width: 200px;
+}
+
+.hero {
+    background-image: url("images/Abuja_City_Gate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities-wrapper {
+    background-color: #F1FAEE;
+}
+
+.activities {
+    padding: 20px 0;
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+.activities-title {
+    color: #1D3557;
+    padding-bottom: 20px;
+}
+
+.activity {
+    padding: 20px 0;
+}
+
+.millenium-park,
+.silverbird,
+.ecumenical-center {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.millenium-park {
+    background-image: url("images/Abuja_Millenium_Park_2019_01.jpg");
+}
+
+.millenium-park:hover {
+    background-image: url("images/Abuja_Millenium_Park_2019_003.jpg");
+}
+
+.silverbird {
+    background-image: url("images/Silverbird_Cinema_002.jpg");
+}
+
+.silverbird:hover {
+    background-image: url("images/Silverbird_Cinema.jpg");
+}
+
+.ecumenical-center {
+    background-image: url("images/National_Ecumenical_Center_Abuja.jpg");
+}
+
+.ecumenical-center:hover {
+    background-image: url("images/National_Ecumenical_Center_Abuja_003.jpg");
+}
+
+.activity-subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.activity-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.guide {
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+.guide-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.guide-details,
+.guide-name {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D3557;
+}
+
+.guide-details {
+    max-width: 80%;
+    margin: 25px auto 10px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.guide-name {
+    font-weight: 700;
+}
+
+.guide-image {
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 650px) {
+    .guide {
+        display: flex;
+        flex-direction: row;
+        max-width: 50%;
+        padding: 20px;
+    }
+    .guide-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .guide-image {
+        display: block;
+    }
+    .sub-activity-wrapper {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
